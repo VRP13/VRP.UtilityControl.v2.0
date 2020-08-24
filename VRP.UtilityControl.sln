@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRP.UtilityControl.BL", "VRP.UtilityControl.BL\VRP.UtilityControl.BL.csproj", "{DE3E098F-9214-414D-93FC-D3DAF23C9B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRP.UtilityControl.CMD", "VRP.UtilityControl.CMD\VRP.UtilityControl.CMD.csproj", "{26461004-DE7E-4D1F-B62B-83FA730AA957}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE3E098F-9214-414D-93FC-D3DAF23C9B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3E098F-9214-414D-93FC-D3DAF23C9B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3E098F-9214-414D-93FC-D3DAF23C9B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3E098F-9214-414D-93FC-D3DAF23C9B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26461004-DE7E-4D1F-B62B-83FA730AA957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26461004-DE7E-4D1F-B62B-83FA730AA957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26461004-DE7E-4D1F-B62B-83FA730AA957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26461004-DE7E-4D1F-B62B-83FA730AA957}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
