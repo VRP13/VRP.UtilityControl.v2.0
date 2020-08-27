@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace VRP.UtilityControl.BL.Model
 {
@@ -6,6 +8,8 @@ namespace VRP.UtilityControl.BL.Model
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public virtual ICollection<Bill> Bills { get; set; }
+        public virtual ICollection<Payment> Payments { get; set; }
         public Month() { }
         public Month(string name)
         {

@@ -5,8 +5,10 @@ namespace VRP.UtilityControl.BL.Model
     public class Bill
     {
         public int Id { get; set; }
-        public Utility Utility { get; set; }
-        public Month Month { get; set; }
+        public int UtilityId { get; set; }
+        public int MonthId { get; set; }
+        public virtual Utility Utility { get; set; }
+        public virtual Month Month { get; set; }
         public int Volume { get; set; }
         public decimal Cost { get; set; }
         public Bill() { }

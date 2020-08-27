@@ -1,16 +1,17 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace VRP.UtilityControl.BL.Controller
 {
     public abstract class BaseController
     {
-        public void Save()
+        private readonly IDataManager dataManager = new DataManager();
+        protected void Save<T>(List<T> item) where T : class
         {
-
+            dataManager.Save(item);
         }
-        public void Load()
+        protected List<T> Load<T>() where T : class
         {
-
+            return dataManager.Load<T>();
         }
     }
 }
